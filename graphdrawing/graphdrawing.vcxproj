@@ -67,6 +67,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="csvparser.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="src\augmentation\DfsMakeBiconnected.cpp" />
     <ClCompile Include="src\augmentation\PlanarAugmentation.cpp" />
@@ -319,6 +320,7 @@
     <ClCompile Include="src\upward\VisibilityLayout.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="csvparser.h" />
     <ClInclude Include="ogdf\augmentation\DfsMakeBiconnected.h" />
     <ClInclude Include="ogdf\augmentation\PlanarAugmentation.h" />
     <ClInclude Include="ogdf\augmentation\PlanarAugmentationFix.h" />

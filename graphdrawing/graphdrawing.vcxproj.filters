@@ -918,6 +918,9 @@
     <ClCompile Include="src\fileformats\XmlParser.cpp">
       <Filter>Source Files\fileformats</Filter>
     </ClCompile>
+    <ClCompile Include="csvparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ogdf\augmentation\DfsMakeBiconnected.h">
@@ -2065,6 +2068,9 @@
     </ClInclude>
     <ClInclude Include="src\orthogonal\EdgeLabel-impl.h">
       <Filter>Source Files\orthogonal</Filter>
+    </ClInclude>
+    <ClInclude Include="csvparser.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

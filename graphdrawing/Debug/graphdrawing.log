@@ -1,22 +1,11 @@
-﻿Build started 2015/4/28 17:55:10.
-     1>Project "C:\Users\tonyju\documents\visual studio 2013\Projects\graphdrawing\graphdrawing\graphdrawing.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2015/5/4 18:01:14.
+     1>Project "C:\Users\tonyju\Documents\Visual Studio 2013\Projects\graphdrawing\graphdrawing\graphdrawing.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D OGDF_DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\fileformats\DinoLineBuffer.cpp src\fileformats\DinoTools.cpp src\fileformats\DinoUmlDiagramGraph.cpp src\fileformats\DinoUmlModelGraph.cpp src\fileformats\DinoUmlToGraphConverter.cpp src\fileformats\DinoXmlParser.cpp src\fileformats\DinoXmlScanner.cpp src\fileformats\GmlParser.cpp src\fileformats\Ogml.cpp src\fileformats\OgmlParser.cpp src\fileformats\simple_graph_load.cpp src\fileformats\XmlParser.cpp
-         XmlParser.cpp
-         simple_graph_load.cpp
-         OgmlParser.cpp
-         Ogml.cpp
-         GmlParser.cpp
-         DinoXmlScanner.cpp
-         DinoXmlParser.cpp
-         DinoUmlToGraphConverter.cpp
-         DinoUmlModelGraph.cpp
-         DinoUmlDiagramGraph.cpp
-         DinoTools.cpp
-         DinoLineBuffer.cpp
-         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D OGDF_DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt csvparser.cpp
+         csvparser.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tonyju\documents\visual studio 2013\Projects\graphdrawing\Debug\graphdrawing.exe" /INCREMENTAL /NOLOGO Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tonyju\documents\visual studio 2013\Projects\graphdrawing\Debug\graphdrawing.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tonyju\documents\visual studio 2013\Projects\graphdrawing\Debug\graphdrawing.lib" /MACHINE:X86 Debug\Source.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tonyju\Documents\Visual Studio 2013\Projects\graphdrawing\Debug\graphdrawing.exe" /INCREMENTAL /NOLOGO Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tonyju\Documents\Visual Studio 2013\Projects\graphdrawing\Debug\graphdrawing.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tonyju\Documents\Visual Studio 2013\Projects\graphdrawing\Debug\graphdrawing.lib" /MACHINE:X86 Debug\csvparser.obj
+         Debug\Source.obj
          Debug\DfsMakeBiconnected.obj
          Debug\PlanarAugmentation.obj
          Debug\PlanarAugmentationFix.obj
@@ -266,9 +255,9 @@
          Debug\UpwardPlanarSubgraphSimple.obj
          Debug\UpwardPlanRep.obj
          Debug\VisibilityLayout.obj
-         graphdrawing.vcxproj -> C:\Users\tonyju\documents\visual studio 2013\Projects\graphdrawing\Debug\graphdrawing.exe
-     1>Done Building Project "C:\Users\tonyju\documents\visual studio 2013\Projects\graphdrawing\graphdrawing\graphdrawing.vcxproj" (Build target(s)).
+         graphdrawing.vcxproj -> C:\Users\tonyju\Documents\Visual Studio 2013\Projects\graphdrawing\Debug\graphdrawing.exe
+     1>Done Building Project "C:\Users\tonyju\Documents\Visual Studio 2013\Projects\graphdrawing\graphdrawing\graphdrawing.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:09.24
+Time Elapsed 00:00:03.07
